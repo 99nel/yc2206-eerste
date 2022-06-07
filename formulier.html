@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="voornaam" placeholder="Vul hier je naam in">
+    <button type="button" onclick="addName()">Add Name</button>
+    <button type="button" onclick="showNames()">Show Names</button>
+    <script>
+        var mijnarray = []
+        var namesList = document.createElement('ul');
+
+        function addName() {
+            var elem = document.getElementById('voornaam')
+            console.log('add names')
+            mijnarray.push(elem.value)
+            console.log(mijnarray)
+        }
+
+        // function uitprinten() {
+        //     console.log('uitprinten', mijnarray)
+        
+        //     for (var i = 0; i < mijnarray.length; i++) {
+        //         console.log(i + ' - ' + mijnarray[i]);
+        //     }
+        // }
+
+        function showNames {
+        var name = docment.createElement('li');
+        name.appendChild(document.createTextNode(mijnarray[i]))
+        namesList.appendChild(name);
+    }
+
+    document.getElementsByTagName("body"[0].appendChild(namesList))
+
+
+
+
+}
+    </script>
+
+
+
+
+
+</body>
+
+</html>

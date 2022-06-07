@@ -1,0 +1,22 @@
+/* Style with id*/
+#idtest5 {
+    color: rgb(226, 16, 79);
+
+}
+
+.c1 {
+    color: #FFFFFF;
+    background-color: rgb(6, 19, 104);
+}
+
+/* Style with class*/
+.c2 {
+    color: rgb(0, 255, 229);
+}
+
+/* Style with tag*/
+li {
+    color: rgb(0, 255, 229);
+    border: 4px dotted crimson;
+    text-decoration: line-through;
+}

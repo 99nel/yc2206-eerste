@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="text" id="number" placeholder="add an integer number">
+    <button type="button" onclick="guessNumber()">Guess Number between 1 and 10</button>
+
+    <script>
+        function getRandomInt(min, max) {
+            min = Math.ceil(min)
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min) + min);
+        }
+
+        function guessNumber() {
+            var number = document.getElementById('number').value;
+            if (number == random) {
+                console.log('You guessed the correct number.');
+            }
+            else {
+                console.log('try again.')
+            }
+        }
+
+        var random = getRandomInt(1, 10)
+        console.log(number)
+    </script>
+</body>
+
+</html>
